@@ -1,8 +1,6 @@
 from modulos import funcoes as f
 from time import sleep
 import threading
-        
-executando=False
 
 # Função necessaria para executar o programa principal
 def run():
