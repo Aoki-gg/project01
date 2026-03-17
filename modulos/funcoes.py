@@ -12,7 +12,7 @@ def path(*paths):
         
     else:
         # rodando no Python normal
-        base_path = os.path.abspath(".")
+        base_path = os.path.dirname("assets")
 
     return os.path.join(base_path, *paths)
 
