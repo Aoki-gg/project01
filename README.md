@@ -1,6 +1,6 @@
 É um sistema que automatiza via reconhecimento de imagem;
 
-O Código deve se inscrito no arquivo "app.py" na função "aplication";
+O Código deve ser inscrito no arquivo "app.py" na função "aplication";
 
 As funções podem ser encontradas na pasta módulos;
 
