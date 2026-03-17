@@ -2,9 +2,6 @@ import tkinter as tk
 import app
 import keyboard
 
-
-executando=False
-
 # cria janela
 janela = tk.Tk()
 janela.title("BOT")
