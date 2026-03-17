@@ -1,4 +1,4 @@
-from modulos import funcoes as f
+from modulos.funcoes import *
 from time import sleep
 import threading
 
@@ -21,9 +21,9 @@ def aplication():
     global executando 
     
     while executando:
-        f.click("imagem1.png","1left")
+        click("imagem1.png","1left")
         sleep(0.5)
-        f.click("imagem2.png","1left")
+        click("imagem2.png","1left")
         sleep(0.5)
-        f.click("imagem3.png","2left")
+        click("imagem3.png","2left")
         sleep(0.5)
